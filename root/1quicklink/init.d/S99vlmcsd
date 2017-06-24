@@ -1,0 +1,45 @@
+#!/bin/sh
+# by tianbaoha
+
+dir=/media/nand/kms
+rcf=/opt/etc/init.d/S99vlmcsd
+
+start() {
+  killall -q vlmcsd
+  sleep 2
+  $dir/vlmcsd -j $dir/vlmcsd.kmd -i $dir/vlmcsd.ini
+  ln -sf /var/log/vlmcsd.log $dir/vlmcsd.log
+  startup on
+}
+
+stop() {
+  killall -q vlmcsd
+  startup
+}
+
+startup() {
+  sed -i '/vlmcsd/d' /opt/started_script.sh
+  rm -rf $rcf
+  if [ "$1" = "on" ]; then
+  [ -x "/opt/etc/init.d/rc.unslung" ] && ln -sf $dir/start.sh $rcf || echo "$dir/start.sh start >/dev/null 2>&1 # vlmcsd_start" >> /opt/started_script.sh
+  fi
+}
+
+case $1 in
+  start)
+    start
+    echo "started"
+  ;;
+  stop)
+    stop
+    echo "stoped"
+  ;;
+  restart)
+    stop
+    sleep 1
+    start
+  ;;
+  *)
+    echo "usage: $0 [start | stop | restart]" 
+  ;;
+esac
