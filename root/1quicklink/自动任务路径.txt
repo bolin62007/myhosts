@@ -1,0 +1,5 @@
+开机启动脚本，可以在里面添加想要启动的软件 /opt/started_script.sh
+
+定时运行任务 /etc/crontabs/admin
+
+开机自启软件脚本（opkg安装的软件自动添加） /opt/etc/init.d
