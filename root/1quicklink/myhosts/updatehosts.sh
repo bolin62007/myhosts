@@ -7,7 +7,9 @@ DATE=`date +%Y-%m-%d-%H:%M:%S`
 #then                                                                            
   wget -q https://github.com/OHLIA/myhosts/raw/master/Go-hosts -O /root/1quicklink/myhosts/1go.hosts --no-check-certificate
   wget -q https://raw.githubusercontent.com/vokins/yhosts/master/hosts -O /root/1quicklink/myhosts/2y.hosts --no-check-certificate
-  wget -q https://github.com/OHLIA/myhosts/raw/master/other-hosts -O /root/1quicklink/myhosts/3other.hosts --no-check-certificate
+  wget -q http://www.malwaredomainlist.com/hostslist/hosts.txt -O /root/1quicklink/myhosts/3malwaredomainlist.hosts --no-check-certificate
+  wget -q http://77l5b4.com1.z0.glb.clouddn.com/hosts.txt -O /root/1quicklink/myhosts/4adaway.hosts --no-check-certificate
+  wget -q https://github.com/OHLIA/myhosts/raw/master/other-hosts -O /root/1quicklink/myhosts/other.hosts --no-check-certificate
   cat /root/1quicklink/myhosts/*.hosts > /root/1quicklink/myhosts/hosts
   cp /root/1quicklink/myhosts/hosts /tmp/hosts
   killall dnsmasq
