@@ -1,12 +1,1 @@
-# myhosts＜/br＞
-For my K3 AP＜/br＞ 
-＜/br＞
-GO-hosts from	<a href ="https://github.com/Lerist/Go-Hosts"> ＜/br＞
-Yhosts from	<a href ="https://github.com/vokins/yhosts">＜/br＞
-MalwareDomainList from	<a href="http://www.malwaredomainlist.com/hostslist/hosts.txt">＜/br＞
-adaway from	<a href="http://77l5b4.com1.z0.glb.clouddn.com/hosts.txt">＜/br＞
-Other add by self include by now:＜/br＞
-K3 AP＜/br＞
-Rslsync＜/br＞
-Javbus＜/br＞
-1024＜/br＞
+<div><div># myhosts</div><div>For my K3 AP&nbsp;</div><div><br></div><div>GO-hosts from<span class="Apple-tab-span" style="white-space:pre">	</span>https://github.com/Lerist/Go-Hosts&nbsp;</div><div>Yhosts from<span class="Apple-tab-span" style="white-space:pre">	</span>https://github.com/vokins/yhosts</div><div>MalwareDomainList from<span class="Apple-tab-span" style="white-space:pre">	</span>http://www.malwaredomainlist.com/hostslist/hosts.txt&nbsp;</div><div>adaway from<span class="Apple-tab-span" style="white-space:pre">	</span>http://77l5b4.com1.z0.glb.clouddn.com/hosts.txt</div><div>Other add by self include by now:</div><div>K3 AP</div><div>Rslsync</div><div>Javbus</div><div>1024</div></div><div></div><div><div># myhosts</div><div>For my K3 AP&nbsp;</div><div><br></div><div>GO-hosts from<span class="Apple-tab-span" style="white-space:pre">	</span>https://github.com/Lerist/Go-Hosts&nbsp;</div><div>Yhosts from<span class="Apple-tab-span" style="white-space:pre">	</span>https://github.com/vokins/yhosts</div><div>MalwareDomainList from<span class="Apple-tab-span" style="white-space:pre">	</span>http://www.malwaredomainlist.com/hostslist/hosts.txt&nbsp;</div><div>adaway from<span class="Apple-tab-span" style="white-space:pre">	</span>http://77l5b4.com1.z0.glb.clouddn.com/hosts.txt</div><div>Other add by self include by now:</div><div>K3 AP</div><div>Rslsync</div><div>Javbus</div><div>1024</div></div><div></div>
